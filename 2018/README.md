@@ -1,1 +1,1 @@
-# AWS Community Day, Bengaluru 2018
+# AWS Community Day, Kenya2018

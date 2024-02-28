@@ -718,11 +718,11 @@ content: "|";
 }
 /* 3. slider */
 .slider-bg {
-	min-height: 1000px !important;
+	min-height: 900px !important;
 	background-position: center;
 	background-size: cover;
 	position: relative;
-	z-index: 1;
+	z-index: 2;
 }
 .slider-bg::before {
 	content: "";
@@ -731,7 +731,7 @@ content: "|";
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background: url(../img/header-overla.png);
+	background: url(../img/Header-banner.png);
 	opacity: .6;
 	z-index: -1;
 }
@@ -1062,7 +1062,7 @@ left: 98% !important;
 	box-shadow: 4px 2px 0 0 #ff007a;
 }
 .second-slider-content h2 {
-	font-size: 90px;
+	font-size: 70px;
 	margin-bottom: 20px;
 }
 .second-slider-bg::before{opacity: .85;}

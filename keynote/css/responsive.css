@@ -392,7 +392,7 @@
 	margin-left: 0;
 }
 .main-menu ul li.active a, .main-menu ul li:hover a {
-	color: #ff007a;
+	color: #ff9900;
 }
 .main-menu  ul > li > a::before {content: none;}
 .main-menu ul li a {

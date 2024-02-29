@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Exo");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 /* line 1, ../sass/shared/_site.scss */
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: #eeeeee;
   font-family: "Roboto", sans-serif;
@@ -2318,6 +2321,10 @@ ul.circle li {
 /* line 1012, ../sass/shared/_home.scss */
 #page .section-6 .volunteers .vl-i .person[data-fname="Willkins"] .img {
   background-image: url(../images/vols/Willkins.jpeg);
+}
+/* line 1012, ../sass/shared/_home.scss */
+#page .section-6 .volunteers .vl-i .person[data-fname="Kevin"] .img {
+  background-image: url(../images/vols/Tuei.jpeg);
 }
 /* line 1015, ../sass/shared/_home.scss */
 #page .section-6 .volunteers .vl-i .person[data-fname="Mayank"] .img {

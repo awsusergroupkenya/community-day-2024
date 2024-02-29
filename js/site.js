@@ -28,9 +28,7 @@ $(function() {
       $("#nav-bar").toggleClass("active");
     });
     $("#link").click(function() {
-      var src = "https://www.youtube.com/embed/ukBGHSN-usk?si=XCZIiiK-vU9nJUXt";
-      $("#myModal").modal("show");
-      $("#myModal iframe").attr("src", src);
+      window.scrollBy(0, 700);
     });
 
     $("#myModal button").click(function() {

@@ -1719,9 +1719,9 @@
   <script>
     $(".buy-ticket-link").on("click", ()=> {
        checkForUtmAvilableOrNot(decodeURIComponent(location.href)).then((formResolve) =>{
-          window.open("https://konfhub.com/awsdaysblr?"+formResolve, "_blank");
+          window.open(""+formResolve, "_blank");
        }).catch((fromReject) => {
-          window.open("https://konfhub.com/awsdaysblr","_blank");
+          window.open("https://v3.chpter.co/linkbasket/AWS-Community-DAY","_blank");
        });
     });
 

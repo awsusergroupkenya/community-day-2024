@@ -38,7 +38,7 @@
 	font-family: 'Karla', sans-serif;
 	font-size: 14px;
 	font-weight: normal;
-	color: #47759d;
+	color: #ff9900;
 	font-style: normal;
 }
 .item-zoom-inout {
@@ -208,7 +208,7 @@ p {
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 28px;
-	color: #47759d;
+	color: #ff9900;
 	margin-bottom: 15px;
   position: relative;
   z-index: 8;

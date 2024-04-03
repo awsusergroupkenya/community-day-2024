@@ -36,7 +36,7 @@
 
  body {
 	font-family: 'Karla', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: normal;
 	color: #ff9900;
 	font-style: normal;
@@ -205,7 +205,7 @@ li {
 	list-style: none
 }
 p {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: normal;
 	line-height: 28px;
 	color: #ff9900;
@@ -5980,4 +5980,40 @@ pre cite {
 .admin-bar .sticky-menu {
   top: 32px;
   margin-top:0;
+}
+
+.table .thead .tr .td p + p, .table .thead .tr .th p + p, .table .tbody .tr .td p + p, .table .tbody .tr .th p + p {
+	font-size: 14px;
+}
+
+.iframe {
+	min-height: 516px;
+}
+
+.locat {
+	font-size: 18px;
+	text-align: center;
+}
+
+.locat_small {
+	font-size: 16px;
+	text-align: center;
+}
+
+.owner_p > p {
+	font-size: 18px;
+}
+
+.owner_p > p::before {
+	font-size: 18px;
+}
+
+.owner_p > p > a {
+	font-size: 18px;
+}
+
+@media (max-width: 768px) {
+	p {
+		font-size: 16px;
+	}
 }

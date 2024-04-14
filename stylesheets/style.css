@@ -1993,11 +1993,11 @@ ul.circle li {
 }
 /* line 739, ../sass/shared/_home.scss */
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).postman {
-  background-image: url(../images/spons/labmero.png);
+  background-image: url(../images/spons/Sponsor.png);
 }
 /* line 742, ../sass/shared/_home.scss */
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).sumologic {
-  background-image: url(../images/spons/Sponsor.png);
+  background-image: url(../images/spons/labmero.png);
 }
 /* line 745, ../sass/shared/_home.scss */
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).wone {

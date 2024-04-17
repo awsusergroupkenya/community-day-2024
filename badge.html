@@ -28,37 +28,6 @@
 
   <!-- Template Main CSS File -->
   <link href="stylesheets/badge-style.css" rel="stylesheet" />
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      // List of images
-      const images = [
-        "images/1.png",
-        "images/2.png"
-      ];
-       // Images for card2
-      const imagesForCard2 = [
-        "images/4.png",
-        "images/5.png"
-      ];
-      // Select a random image
-      const randomImage = images[Math.floor(Math.random() * images.length)];
-  
-      // Apply the random image as the background for #card1
-      const card1 = document.getElementById('card1');
-      if (card1) {
-        card1.style.backgroundImage = `url('${randomImage}')`;
-      }
-  
-      // Select a random image for card2
-      const randomImageCard2 = imagesForCard2[Math.floor(Math.random() * imagesForCard2.length)];
-      const card2 = document.getElementById('card2');
-      if (card2) {
-        card2.style.backgroundImage = `url('${randomImageCard2}')`;
-      }
-      // If you have more cards like card2, card3, etc., replicate the above lines with appropriate modifications
-    });
-  </script>
   <style>
     .bphoto-card .card {
       margin: auto;
@@ -88,7 +57,7 @@
 }
 
     #card1 {
-      /* background-image: url(images/1.png); */
+      background-image: url(images/6.png);
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100% 100%;
@@ -97,7 +66,7 @@
     }
 
     #card2 {
-      /* background-image: url(images/4.png); */
+      background-image: url(images/10.png);
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100% 100%;
@@ -142,7 +111,7 @@
           <div class="col-lg-8 inner-text-content-full">
             <h2 class="copy-text-heading">Copy below content and share it with your customized badge on your social media posts</h2>
             <div class="copy-content-inner-wrapper">
-                <p id="paragraphToCopy"> I am attending AWS Community Day Kenya. <br> Book your ticket now: https://awscommunitydaykenya.shop.chpter.co<br>#aws #awsugke #AWSCommunityDay #AWSCommunityDayKE </p>
+                <p id="paragraphToCopy"> I am attending AWS Community Day Kenya 2024. <br> awsusergroupkenya.co.ke<br>#aws #awsugke #AWSCommunityDay #AWSCommunityDayKE </p>
                 <button id="copyButton"><i class="fa fa-clone"></i> Copy to Clipboard</button>
             </div>
           </div>

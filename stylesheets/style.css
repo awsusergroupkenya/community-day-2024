@@ -1965,7 +1965,7 @@ ul.circle li {
 }
 /* line 718, ../sass/shared/_home.scss */
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).tensult {
-  background-image: url(../images/spons/Sponsor.png);
+  background-image: url(../images/spons/moringa.png);
 }
 /* line 721, ../sass/shared/_home.scss */
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).cloudyuga {
@@ -1973,11 +1973,12 @@ ul.circle li {
 }
 /* line 724, ../sass/shared/_home.scss */
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).wwc {
-  background-image: url(../images/spons/Sponsor.png);
+  background-image: url(../images/spons/mesha.png);
+  background-size:contain;
 }
 /* line 727, ../sass/shared/_home.scss */
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).wheelsbox {
-  background-image: url(../images/spons/Sponsor.png);
+  background-image: url(../images/spons/yellowcard.svg);
 }
 /* line 730, ../sass/shared/_home.scss */
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).epsilon {

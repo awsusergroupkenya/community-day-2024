@@ -887,7 +887,7 @@ ul.circle li {
 .table .thead .tr .th p + p:before,
 .table .tbody .tr .td p + p:before,
 .table .tbody .tr .th p + p:before {
-  content: "--- ";
+  content: " ";
 }
 /* line 506, ../sass/shared/_site.scss */
 .table .thead .tr .th,

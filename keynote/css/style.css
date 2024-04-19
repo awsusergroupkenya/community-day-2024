@@ -6000,6 +6000,12 @@ pre cite {
 	text-align: center;
 }
 
+.owner_p {
+	display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+}
+
 .owner_p > p {
 	font-size: 18px;
 }

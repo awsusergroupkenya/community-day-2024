@@ -313,7 +313,7 @@ label {
 
 
 /* scrollUp */
-#scrollUp {
+/* #scrollUp {
 	background:#ff007a;
 	height: 45px;
 	width: 45px;
@@ -326,7 +326,7 @@ label {
 	font-size: 22px;
 	line-height: 45px;
 	transition: .3s;
-}
+} */
 #scrollUp:hover {
 	background:#002691;
 }
@@ -6022,4 +6022,9 @@ pre cite {
 	p {
 		font-size: 16px;
 	}
+	.second-slider-content {
+		width: 90%;
+		margin: auto;
+	}
 }
+

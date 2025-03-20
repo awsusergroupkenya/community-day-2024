@@ -52,6 +52,7 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+  <link rel="stylesheet" href="stylesheets/previousevent.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/mystyles.css" />
 
   <!-- CSS here -->
@@ -177,11 +178,16 @@
           <a class="buy-ticket-link  button">Tickets Coming Soon</a>
         </li>
         <ul>
-          <li>
+         <li>
             <a href="#com_info">About Community Day</a>
           </li>
-          <li>
+          
+          <!-- <li>
             <a href="https://sessionize.com/aws-community-day-kenya/">CFP</a>
+          </li> -->
+          
+          <li>
+            <a href="#aws2024">Previous Events</a>
           </li>
           <li>
             <a href="#venues">Venue</a>
@@ -198,7 +204,7 @@
           <li>
             <a href="#speakers">Speakers</a>
           </li>
-
+            <!--
           <li>
             <a href="/volunteers.html">Volunteers</a>
           </li>
@@ -213,7 +219,7 @@
             <a href="#subscribe" id="sub-button" class="sub-button">
               <i class="icon large ion-md-notifications-outline"></i>
             </a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -278,6 +284,299 @@
       </div>
     </section>
     <!-- slider-area-end -->
+
+     <!-- Previous Events Section -->
+    <div class="section section-aws2024" id="aws2024">
+      <div class="container">
+        <h4 class="main-heading-ttl text-center">Previous Events</h4>
+        <div class="aws2024-container">
+          <div class="drawer-container">
+            <!-- Speakers Drawer -->
+            <div class="drawer" id="speakers-drawer">
+              <div class="drawer-preview">
+                <div class="preview-content">
+                  <div class="speakers-preview">
+                    <div class="preview-title">Speakers</div>
+                    <div class="preview-images">
+                      <div class="preview-speaker-img" style="background-image: url('images/aws2024/speaker1.jpg');"></div>
+                      <div class="preview-speaker-img" style="background-image: url('images/aws2024/speaker2.jpg');"></div>
+                      <div class="preview-speaker-img" style="background-image: url('images/aws2024/speaker3.jpg');"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="drawer-header" onclick="toggleDrawer('speakers-drawer')">
+                <h3>Speakers</h3>
+                <span class="drawer-toggle"><i class="icon ion-md-arrow-dropdown"></i></span>
+              </div>
+              
+              <div class="drawer-content">
+                <div class="speakers-grid">
+                  <div class="speaker-card">
+                    <div class="speaker-image">
+                      <img src="images/aws2024/speaker1.jpg" alt="Speaker 1">
+                    </div>
+                    <h4>John Doe</h4>
+                    <p>AWS Solutions Architect</p>
+                  </div>
+                  <div class="speaker-card">
+                    <div class="speaker-image">
+                      <img src="images/aws2024/speaker2.jpg" alt="Speaker 2">
+                    </div>
+                    <h4>Jane Smith</h4>
+                    <p>Cloud Infrastructure Expert</p>
+                  </div>
+                  <div class="speaker-card">
+                    <div class="speaker-image">
+                      <img src="images/aws2024/speaker3.jpg" alt="Speaker 3">
+                    </div>
+                    <h4>Michael Johnson</h4>
+                    <p>DevOps Engineer</p>
+                  </div>
+                  <div class="speaker-card">
+                    <div class="speaker-image">
+                      <img src="images/aws2024/speaker4.jpg" alt="Speaker 4">
+                    </div>
+                    <h4>Sarah Williams</h4>
+                    <p>AWS Community Hero</p>
+                  </div>
+                  <div class="speaker-card">
+                    <div class="speaker-image">
+                      <img src="images/aws2024/speaker5.jpg" alt="Speaker 5">
+                    </div>
+                    <h4>Sarah Williams</h4>
+                    <p>AWS Community Hero</p>
+                  </div>
+                  <div class="speaker-card">
+                    <div class="speaker-image">
+                      <img src="images/aws2024/speaker6.jpg" alt="Speaker 6">
+                    </div>
+                    <h4>Sarah Williams</h4>
+                    <p>AWS Community Hero</p>
+                  </div>
+                  <div class="speaker-card">
+                    <div class="speaker-image">
+                      <img src="images/aws2024/speaker7.jpg" alt="Speaker 7">
+                    </div>
+                    <h4>Sarah Williams</h4>
+                    <p>AWS Community Hero</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Activities Drawer -->
+            <div class="drawer" id="activities-drawer">
+              <div class="drawer-preview">
+                <div class="preview-content">
+                  <div class="activities-preview">
+                    <div class="preview-title">Activities</div>
+                    <div class="preview-activity-img" style="background-image: url('images/aws2024/activity1.jpg');">
+                      <span class="preview-label">Workshops & Sessions</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="drawer-header" onclick="toggleDrawer('activities-drawer')">
+                <h3>Activities</h3>
+                <span class="drawer-toggle"><i class="icon ion-md-arrow-dropdown"></i></span>
+              </div>
+              
+              <div class="drawer-content">
+                <div class="activities-carousel">
+                  <div class="carousel-container">
+                    <div class="carousel-track">
+                      <div class="carousel-slide">
+                        <img src="images/aws2024/activity1.jpg" alt="Workshop Session">
+                        <h4>Hands-on Workshop</h4>
+                        <p>Participants engaging in practical AWS implementation</p>
+                      </div>
+                      <div class="carousel-slide">
+                        <img src="images/aws2024/activity2.jpg" alt="Panel Discussion">
+                        <h4>Expert Panel</h4>
+                        <p>Industry leaders discussing cloud innovations</p>
+                      </div>
+                      <div class="carousel-slide">
+                        <img src="images/aws2024/activity3.jpg" alt="Networking">
+                        <h4>Networking Session</h4>
+                        <p>Attendees connecting and sharing experiences</p>
+                      </div>
+                      <div class="carousel-slide">
+                        <img src="images/aws2024/activity4.jpg" alt="Networking">
+                        <h4>Networking Session</h4>
+                        <p>Attendees connecting and sharing experiences</p>
+                      </div>
+                      <div class="carousel-slide">
+                        <img src="images/aws2024/activity5.jpg" alt="Networking">
+                        <h4>Networking Session</h4>
+                        <p>Attendees connecting and sharing experiences</p>
+                      </div>
+                    </div>
+                    <div class="carousel-nav">
+                      <button class="carousel-prev"><i class="icon ion-md-arrow-back"></i></button>
+                      <button class="carousel-next"><i class="icon ion-md-arrow-forward"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sponsors Drawer -->
+            <div class="drawer" id="sponsors-drawer">
+              <div class="drawer-preview">
+                <div class="preview-content">
+                  <div class="sponsors-preview">
+                    <div class="preview-title">Sponsors</div>
+                    <div class="preview-sponsors">
+                      <div class="preview-sponsor-logo" style="background-image: url('images/spons/aws-logo.png');"></div>
+                      <div class="preview-sponsor-logo" style="background-image: url('images/spons/KCA.png');"></div>
+                      <div class="preview-sponsor-logo" style="background-image: url('images/spons/moringa.png');"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="drawer-header" onclick="toggleDrawer('sponsors-drawer')">
+                <h3>Sponsors</h3>
+                <span class="drawer-toggle"><i class="icon ion-md-arrow-dropdown"></i></span>
+              </div>
+              
+              <div class="drawer-content">
+                <div class="sponsors-grid">
+                  <div class="sponsor-logo">
+                    <img src="images/spons/11-degrees.png" alt="Sponsor 1">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/elastic.jpg" alt="Sponsor 2">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/KCA.png" alt="Sponsor 3">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/moringa.png" alt="Sponsor 4">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/silicon-overdrive.png" alt="Sponsor 5">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/Whizlabs.png" alt="Sponsor 6">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/wone.jpg" alt="Sponsor 7">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/aws-logo.png" alt="Sponsor 8">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/cloudyuga.jpg" alt="Sponsor 9">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/emobilis.png" alt="Sponsor 10">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/freshworks.jpg" alt="Sponsor 11">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/indianstartups.jpg" alt="Sponsor 12">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/jetbrains.jpg" alt="Sponsor 13">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/efy.jpg" alt="Sponsor 14">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/knowledgehut.jpg" alt="Sponsor 15">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/postman.jpg" alt="Sponsor 16">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/powerup.jpg" alt="Sponsor 17">
+                  </div>
+                  <div class="sponsor-logo">
+                    <img src="images/spons/yellowcard.svg" alt="Sponsor 18">
+                  </div>
+                </div>
+                
+                <div class="sponsor-booths">
+                  <h4>Sponsor Booths</h4>
+                  <div class="booth-carousel">
+                    <div class="carousel-container">
+                      <div class="booth-carousel-track">
+                        <div class="booth-carousel-slide">
+                          <img src="images/aws2024/sponsor1.jpg" alt="Sponsor Booth 1">
+                          <p>Partner showcase area with interactive demonstrations</p>
+                        </div>
+                        <div class="booth-carousel-slide">
+                          <img src="images/aws2024/sponsor2.jpg" alt="Sponsor Booth 2">
+                          <p>Networking opportunities with industry leaders</p>
+                        </div>
+                        <div class="booth-carousel-slide">
+                          <img src="images/aws2024/sponsor3.jpg" alt="Sponsor Booth 3">
+                          <p>Attendees engaging with sponsor technologies</p>
+                        </div>
+                        <div class="booth-carousel-slide">
+                          <img src="images/aws2024/sponsor4.jpg" alt="Sponsor Booth 4">
+                          <p>Live product demonstrations and technical discussions</p>
+                        </div>
+                        <div class="booth-carousel-slide">
+                          <img src="images/aws2024/sponsor.jpg" alt="Sponsor Booth 5">
+                          <p>Community members connecting with AWS experts</p>
+                        </div>
+                        <div class="booth-carousel-slide">
+                          <img src="images/aws2024/sponsor6.jpg" alt="Sponsor Booth 6">
+                          <p>Hands-on experience with cloud technologies</p>
+                        </div>
+                      </div>
+                      <div class="carousel-nav booth-nav">
+                        <button class="booth-carousel-prev"><i class="icon ion-md-arrow-back"></i></button>
+                        <button class="booth-carousel-next"><i class="icon ion-md-arrow-forward"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Event Summary Box -->
+          <div class="event-summary">
+            <div class="event-info">
+              <div class="event-detail">
+                <i class="icon ion-md-calendar"></i>
+                <span>June 30, 2024</span>
+              </div>
+              <div class="event-detail">
+                <i class="icon ion-md-pin"></i>
+                <span>KCA UNIVERSITY, Nairobi</span>
+              </div>
+              <div class="event-detail">
+                <i class="icon ion-md-people"></i>
+                <span>500+ Attendees</span>
+              </div>
+            </div>
+            <div class="event-stats">
+              <div class="stat-item">
+                <span class="stat-number">12</span>
+                <span class="stat-label">Speakers</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">8</span>
+                <span class="stat-label">Workshops</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">15</span>
+                <span class="stat-label">Sponsors</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <div class="section section-2">
       <div class="container flex-it">
@@ -628,6 +927,7 @@
 
 
   <!-- JS here -->
+   <script src="js/previousevent.js"></script>
   <script src="keynote/js/vendor/modernizr-3.5.0.min.js"></script>
   <script src="keynote/js/popper.min.js"></script>
   <script src="keynote/js/one-page-nav-min.js"></script>
